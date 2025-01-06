@@ -6,7 +6,6 @@ Samsung riscv program repo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S Srivathsav - Personal Profile</title>
 </head>
 <body>
     <div class="container">
