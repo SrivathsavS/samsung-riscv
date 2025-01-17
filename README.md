@@ -39,4 +39,19 @@ Run the compiled program:
 ```
 $ ./a.out
 ```
+Step 4: Compile C Code with RISC-V Compiler
 
+Compile the C code using the RISC-V compiler:
+```
+$ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o filename.o filename.c
+```
+List the compiled object file:
+```
+$ ls -ltr filename.o
+```
+Step 5: Display Assembly Code
+
+Display the optimized assembly code for the main function:
+```
+$ riscv64-unknown-elf-objdump -d filename.o | less
+```
