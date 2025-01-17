@@ -21,14 +21,14 @@ Samsung riscv program repo
 1. Install Ubuntu on VMBox.
 2. Launch Ubuntu's terminal.
 
-## Step 2: Install Leafpad
+<h3>Step 2: Install Leafpad</h3> 
 
 Run the following command to install Leafpad:
 ```bash
 $ sudo apt install leafpad
 ```
 
-Step 3: Compile and Run the C Code
+<h3>Step 3: Compile and Run the C Code</h3>h3>
 
 Compile the C code:
 ```
@@ -39,7 +39,7 @@ Run the compiled program:
 ```
 $ ./a.out
 ```
-Step 4: Compile C Code with RISC-V Compiler
+<h3>Step 4: Compile C Code with RISC-V Compiler</h3>
 
 Compile the C code using the RISC-V compiler:
 ```
@@ -49,7 +49,7 @@ List the compiled object file:
 ```
 $ ls -ltr filename.o
 ```
-Step 5: Display Assembly Code
+<h3>Step 5: Display Assembly Code</h3>
 
 Display the optimized assembly code for the main function:
 ```
