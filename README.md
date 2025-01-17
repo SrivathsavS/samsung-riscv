@@ -14,8 +14,8 @@ Samsung riscv program repo
         <p><strong>Email ID:</strong> <a href="mailto:s.srivathsav04@gmail.com">s.srivathsav04@gmail.com</a></p>
         <p><strong>GitHub Profile:</strong> <a href="https://github.com/SrivathsavS" target="_blank">SrivathsavS</a></p>
         <p><strong>LinkedIn Profile:</strong> <a href="https://www.linkedin.com/in/s-srivathsav-42616a21a" target="_blank">S Srivathsav on LinkedIn</a></p>
-        ## TASK 1
-        ##Step 1: Setting Up Ubuntu within VMBox
+        <h1>TASK 1<h/1>
+        <h3>Step 1: Setting Up Ubuntu within VMBox</h3>
         
 
 1. Install Ubuntu on VMBox.
