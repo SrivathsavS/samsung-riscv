@@ -15,6 +15,17 @@ Samsung riscv program repo
         <p><strong>GitHub Profile:</strong> <a href="https://github.com/SrivathsavS" target="_blank">SrivathsavS</a></p>
         <p><strong>LinkedIn Profile:</strong> <a href="https://www.linkedin.com/in/s-srivathsav-42616a21a" target="_blank">S Srivathsav on LinkedIn</a></p>
         <p><h1><strong> Task 1 </p>
+        ##Step 1: Setting Up Ubuntu within VMBox
+
+1. Install Ubuntu on VMBox.
+2. Launch Ubuntu's terminal.
+
+## Step 2: Install Leafpad
+
+Run the following command to install Leafpad:
+```bash
+$ sudo apt install leafpad
+
     </div>
 </body>
 </html>
