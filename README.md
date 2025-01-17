@@ -27,7 +27,12 @@ Run the following command to install Leafpad:
 ```bash
 $ sudo apt install leafpad
 
-    </div>
-</body>
-</html>
+Step 3: Compile and Run the C Code
+
+Compile the C code:
+$ gcc filename.c
+
+Run the compiled program:
+$ ./a.out
+
 
