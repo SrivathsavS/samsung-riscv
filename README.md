@@ -76,4 +76,37 @@ RISC-V :
 
 
 
+
 ![Screenshot from 2025-01-06 10-20-38](https://github.com/user-attachments/assets/d282308a-2e10-4a8f-938c-6a591b379a47)
+
+
+
+<h1>TASK 2</h1>
+
+<h2>Write a simple c program :</h2>
+<h3>C program to calculate area of a circle</h3>
+
+
+
+![C_program](https://github.com/user-attachments/assets/0eab6427-aa44-4487-9d2d-4c11e178ad2e)
+
+<h2>Compilation using Spike :</h2>
+<h3>O1-</h3>
+
+![Screenshot from 2025-01-13 22-28-19](https://github.com/user-attachments/assets/bc0543d2-31ba-4945-a2de-293e1026e0e8)
+
+<h3>object dump for O1 -</h3>
+
+
+![o1objdump](https://github.com/user-attachments/assets/27b338d4-a331-439f-a3ec-8ca6b8a2f123)
+
+<h3>Ofast -</h3>
+
+![Screenshot from 2025-01-13 22-23-00](https://github.com/user-attachments/assets/a7b45986-028d-4570-aaa0-ac8397133fc3)
+
+
+<h3>Object dump for Ofast -</h3>
+
+![ofastobjdump](https://github.com/user-attachments/assets/e145d3c3-599f-49b0-aafb-b3d46b0b62b1)
+
+
