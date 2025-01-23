@@ -190,3 +190,36 @@ RISC-V :
 | 13 | jalr          | 00000000000001000000000011100111 | 1100111  | 000     | -        | Indirect jump offset |
 | 14 | bne           | 00000000000100000001010011100011 | 1100011  | 001     | -        | Relative Offset      |
 | 15 | call          | 00000000000000000000000011101111 | 1101111  | -       | -        | Offset to function   |
+
+<h1><ins>TASK 4</ins></h1>
+<h2>RISC-V Simulation</h2>
+
+
+This project provides a functional simulation of a custom RISC-V core (iiitb_rv32i) using Verilog. The design includes a testbench for validation, generates waveforms for debugging, and demonstrates the execution of a simple instruction set.
+<p><h2><ins>Features:</h2></ins>
+
+   <p><ins></ins>RISC-V Core Implementation:</ins> Includes a Verilog netlist for a 32-bit RISC-V core.</p> 
+   <p><ins></ins>Instruction Set Support:</ins> Supports basic arithmetic, logical, memory, and branch instructions.</p> 
+   <p><ins></ins>Testbench Validation:</ins> Simulates the core's functionality with an automated testbench.</p> 
+   <p><ins></ins>Waveform Analysis:</ins> Captures and visualizes waveforms using GTKWave.</p> 
+
+<p><h2><ins>Simulation Steps:</ins></h2>
+
+<h3>1. Compile the Design:</h3>
+```
+iverilog -o riscv_sim.out iiitb_rv32i_tb.v iiitb_rv32i.v
+```
+<h3>2. Run the Simulation:</h3>
+```
+vvp riscv_sim.out
+```
+![Screenshot from 2025-01-23 21-52-49](https://github.com/user-attachments/assets/62b468d9-e413-4bd9-bad0-5f381db97284)
+
+
+<h3>3. View the Waveforms:</h3>
+```
+gtkwave iiitb_rv32i.vcd
+
+```
+![Screenshot from 2025-01-23 21-51-34](https://github.com/user-attachments/assets/88b3d5cf-0d07-4070-8bc5-834ea19d3498)
+[task4.pdf](https://github.com/user-attachments/files/18523803/task4.pdf)
