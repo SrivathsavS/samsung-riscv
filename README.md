@@ -213,7 +213,7 @@ iverilog -o riscv_sim.out iiitb_rv32i_tb.v iiitb_rv32i.v
 ```
 vvp riscv_sim.out
 ```
-![Screenshot from 2025-01-23 21-52-49](https://github.com/user-attachments/assets/62b468d9-e413-4bd9-bad0-5f381db97284)
+![prompts](https://github.com/SrivathsavS/samsung-riscv/blob/main/Screenshot%20from%202025-01-23%2021-52-49.png)
 
 
 <h3>3. View the Waveforms:</h3>
@@ -221,5 +221,5 @@ vvp riscv_sim.out
 gtkwave iiitb_rv32i.vcd
 
 ```
-![Screenshot from 2025-01-23 21-51-34](https://github.com/user-attachments/assets/88b3d5cf-0d07-4070-8bc5-834ea19d3498)
-[task4.pdf](https://github.com/user-attachments/files/18523803/task4.pdf)
+![waveform](https://github.com/SrivathsavS/samsung-riscv/blob/main/Screenshot%20from%202025-01-23%2021-51-34.png)
+
