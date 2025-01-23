@@ -1,4 +1,4 @@
-# Samsung-RISCV
+q# Samsung-RISCV
 Samsung riscv program repo
 
 <!DOCTYPE html>
@@ -203,23 +203,29 @@ This project provides a functional simulation of a custom RISC-V core (iiitb_rv3
    <p><ins></ins>Testbench Validation:</ins> Simulates the core's functionality with an automated testbench.</p> 
    <p><ins></ins>Waveform Analysis:</ins> Captures and visualizes waveforms using GTKWave.</p> 
 
-<p><h2><ins>Simulation Steps:</ins></h2>
+## Simulation Steps:
 
-<h3>1. Compile the Design:</h3>
-```
+### 1. Compile the Design:
+```bash
 iverilog -o riscv_sim.out iiitb_rv32i_tb.v iiitb_rv32i.v
 ```
-<h3>2. Run the Simulation:</h3>
-```
+
+### 2. Run the Simulation:
+```bash
 vvp riscv_sim.out
 ```
-![prompts](https://github.com/SrivathsavS/samsung-riscv/blob/main/Screenshot%20from%202025-01-23%2021-52-49.png)
+
+![PROMPTS](https://github.com/user-attachments/assets/8ba0359f-c587-43c0-8869-3264bf421d1c)
 
 
-<h3>3. View the Waveforms:</h3>
-```
+## 3. View the Waveform :
+```bash
 gtkwave iiitb_rv32i.vcd
-
 ```
-![waveform](https://github.com/SrivathsavS/samsung-riscv/blob/main/Screenshot%20from%202025-01-23%2021-51-34.png)
+
+![WAVEFORM](https://github.com/user-attachments/assets/35da2ccd-154f-4887-9dde-4a387bc9c2c8)
+
+Refer this pdf for a clearer waveform image : [task4.pdf](https://github.com/user-attachments/files/18524160/task4.pdf)
+
+
 
