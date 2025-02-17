@@ -228,4 +228,93 @@ gtkwave iiitb_rv32i.vcd
 Refer this pdf for a clearer waveform image : [task4.pdf](https://github.com/user-attachments/files/18524160/task4.pdf)
 
 
+# 🎵 TASK 5: CH32V003 Buzzer Music Player (VSDSquadron Mini)
+
+This is **Task 5** of the project, where we play **melodies using a passive buzzer** connected to the **VSDSquadron Mini (CH32V003F4U6)**.  
+The project uses **Timer1 PWM on PC4** for accurate note generation.  
+
+---
+
+## 📌 TASK OBJECTIVES
+✅ **Use a buzzer to generate different musical notes**  
+✅ **Implement hardware PWM (Timer1) for better sound clarity**  
+✅ **Play multiple songs, starting with Twinkle Twinkle Little Star**  
+✅ **Allow easy addition of new melodies**  
+
+---
+
+## 🎛️ HARDWARE REQUIREMENTS
+- **VSDSquadron Mini (CH32V003F4U6)**
+- **Passive Buzzer**
+- **Jumper Wires**
+
+---
+
+## 🔌 WIRING DIAGRAM
+| **Buzzer Pin** | **Connect To** |
+|--------------|------------|
+| **+ (Positive)** | **PC4 (PWM Output from TIM1)** |
+| **- (Negative)** | **GND** |
+
+---
+
+## 🎼 DEFAULT SONG: Twinkle Twinkle Little Star
+
+---
+
+## 📜 HOW TO ADD A NEW SONG
+1. Define the **note frequencies** in `notes.h`:  
+    ```c
+    #define NOTE_C4  262
+    #define NOTE_D4  294
+    #define NOTE_E4  330
+    ```
+
+2. Create a new function in `songs.c` with the melody sequence:  
+    ```c
+    void PlayTwinkle() {
+        PlayTone(NOTE_C4, QUARTER_NOTE);
+        PlayTone(NOTE_C4, QUARTER_NOTE);
+        PlayTone(NOTE_G4, QUARTER_NOTE);
+        PlayTone(NOTE_G4, QUARTER_NOTE);
+        PlayTone(NOTE_A4, QUARTER_NOTE);
+        PlayTone(NOTE_A4, QUARTER_NOTE);
+        PlayTone(NOTE_G4, HALF_NOTE);
+    }
+    ```
+
+3. Add the song to `main.c` and call it inside the loop:  
+    ```c
+    while (1) {
+        PlayTwinkle();
+        Delay_ms(2000);
+    }
+    ```
+
+---
+
+## 🚀 HOW TO RUN
+1. **Connect the buzzer** as per the wiring diagram.  
+2. **Upload the code** using **PlatformIO** or **OpenOCD**.  
+3. **Enjoy the melody! 🎶**  
+
+---
+
+
+---
+
+## 🎛️ CONFIGURABLE PARAMETERS
+| **Setting** | **Description** | **Default Value** |
+|------------|----------------|---------------|
+| `BUZZER_PIN` | Buzzer output pin | `PC4` |
+| `TEMPO` | Playback speed (BPM) | `120` |
+| `PAUSE_BETWEEN_NOTES` | Delay between notes | `50ms` |
+
+---
+
+## 💡 FUTURE IMPROVEMENTS
+- [ ] Add **button control** to switch songs  
+- [ ] Support **real-time tempo adjustment**  
+- [ ] Play **multi-tone harmonies**  
+
 
