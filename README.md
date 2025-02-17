@@ -1,4 +1,4 @@
-q# Samsung-RISCV
+# Samsung-RISCV
 Samsung riscv program repo
 
 <!DOCTYPE html>
