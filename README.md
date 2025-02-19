@@ -317,7 +317,7 @@ The project uses **Timer1 PWM on PC4** for accurate note generation.
 - [ ] Support **real-time tempo adjustment**  
 - [ ] Play **multi-tone harmonies**  
 
-**<h1><ins>TASK 4</ins></h1>**
+**<h1><ins>TASK 6</ins></h1>**
 - Woking project demo -
 
 https://github.com/user-attachments/assets/564421a4-3e20-45a3-870a-c1839a7110e4
